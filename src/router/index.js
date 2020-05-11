@@ -8,6 +8,7 @@ import Login from '../components/Login.vue';
 Vue.use(Router);
 
 const router = new Router({
+	mode: 'history',
     routes: [
     { path: '/', component: Home },
     { path: '/register', component: Register },
