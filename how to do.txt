@@ -79,3 +79,13 @@ the route with the name, especially when linking to the route or performing navi
 You can give the route a name in the routes options while creating a Router instance.
 
 Now, we will add one property called name to the routes object in a index.js file.
+
+##- 05-Redirecting Programmatically in Vue Router -##
+In the single page application, we often face a situation where we need to
+perform the redirecting after some operations are done successfully.
+
+We can redirect the route programmatically using the router object.
+For example, when the user successfully logged in, we need to redirect to the home route programmatically.
+
+Let us see the following example.
+Let us create one more component called Redirect.vue inside the components folder and add the following code.

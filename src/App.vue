@@ -7,6 +7,7 @@
       <router-link to='/login'>Login</router-link>
       <!-- <router-link to="/student/:id">Student</router-link> -->
       <router-link :to="{name: 'student', params: {id: 2}}">Student</router-link>
+      <router-link :to="{name: 'redirect'}">Go To Home</router-link>
     </nav>
     <router-view />
   </div>
