@@ -66,3 +66,7 @@ We are using the hash mode of routing. We can also use HTML 5 History Mode.
 By default, vue.js uses the hash mode. We need to tell the vue application externally to do the history routing.
 We need to modify one line of code inside the index.js file, and we are done.
 Now, we can be able to route the components without the hash.
+
+##- 03-Dynamic routing in Vue.js -##
+Let us define one more route inside the src >> routes.js called /student/:id
+and also create a component inside the src >> components folder called Student.vue.
