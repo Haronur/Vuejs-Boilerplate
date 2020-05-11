@@ -1,4 +1,4 @@
-How to Set up Vue.js project in 5 easy steps using vue-cli
+## 01-How to Set up Vue.js project in 5 easy steps using vue-cli -##
 https://medium.com/@subodhgarg/how-to-set-up-vue-js-project-in-5-easy-steps-using-vue-cli-669b1aea518b
 
 Step 1
@@ -23,3 +23,39 @@ npm install
 
 Step 5
 npm run dev
+
+
+##- 01-Basic Routing with Vue.js -##
+
+Step 1: Install Vue Router
+npm install vue-router --save
+
+Step 2: Basic Routing with Vue.js
+Inside the src folder, create one Folder router and one file called index.js and add the following code.
+
+import Vue from 'vue';
+import Router from 'vue-router';
+
+import Home from '../components/Home.vue';
+import Register from '../components/Register.vue';
+import Login from '../components/Login.vue'; 
+
+Vue.use(Router);
+
+const router = new Router({
+    routes: [
+    { path: '/', component: Home },
+    { path: '/register', component: Register },
+    { path: '/login', component: Login },
+    ]
+});
+export default router;
+
+
+Step 3: Create Vue components
+The next step is to create three new components inside the src >> components folder.
+    Home.vue
+    Register.vue
+    Login.vue
+
+Step 3: npm run dev
