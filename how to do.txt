@@ -70,3 +70,12 @@ Now, we can be able to route the components without the hash.
 ##- 03-Dynamic routing in Vue.js -##
 Let us define one more route inside the src >> routes.js called /student/:id
 and also create a component inside the src >> components folder called Student.vue.
+
+##- 04-Named routes in Vue.js -##
+We can simplify the linking process to navigating to different routes by defining
+the named routes or designated routes.
+Sometimes it is more convenient to identify
+the route with the name, especially when linking to the route or performing navigations.
+You can give the route a name in the routes options while creating a Router instance.
+
+Now, we will add one property called name to the routes object in a index.js file.
