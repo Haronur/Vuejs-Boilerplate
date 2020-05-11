@@ -1,0 +1,25 @@
+How to Set up Vue.js project in 5 easy steps using vue-cli
+https://medium.com/@subodhgarg/how-to-set-up-vue-js-project-in-5-easy-steps-using-vue-cli-669b1aea518b
+
+Step 1
+npm install -g @vue/cli
+
+[npm install -g vue-cli      for vue-cli(1.x or 2.x)   ]
+If you’re reading the comments to find out why you’re getting errors, or why step 2 isn’t working, allow me to help:
+From the Vue CLI docs:
+“The package name changed from vue-cli to @vue/cli.
+If you have the previous vue-cli(1.x or 2.x) package installed globally,
+you need to uninstall it first with npm uninstall vue-cli -g or yarn global remove vue-cli.”
+
+Step 2
+Syntax: vue init <template-name> <project-name>
+example: vue init webpack-simple vuejs-boilerplate
+
+Step 3
+cd vuejs-boilerplate
+
+Step 4
+npm install
+
+Step 5
+npm run dev
